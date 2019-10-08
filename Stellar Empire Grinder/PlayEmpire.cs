@@ -12,14 +12,7 @@ namespace Stellar_Empire_Grinder
         public string Name { get; set; }
         public string Adjective { get; set; }
         
-        public int EconomyDecilesRemaining { get; set; }
-        public int GeneralWelfareDeciles { get; set; }
-        public int ExplorationDeciles { get; set; }
-        public int ExpansionDeciles { get; set; }
-        public int DevelopmentDeciles { get; set; }
-        public int ScienceDeciles { get; set; }
-        public int XenoDiplomacyDeciles { get; set; }
-        public int FleetDeciles { get; set; }
+        
         public int SpaceYear { get; set; }
         public double DevelopmentBucket { get; set; }
         public double ExplorationBucket { get; set; }

@@ -56,6 +56,7 @@ namespace Stellar_Empire_Grinder
  ScientificOutputBonus for each category
  Re-check help descriptions
  How do planets affect economic growth? Increase cost of development by devBucket, increase returns by planetMultiplier? - should scale at greater than 1:1
+    (OR 1 planet - devBucket gives +1, 2 planets +1.5, 3 planets +1.75... diminishes too fast
  War over (planets + years)
  War, peace, relationship drift
  Exterminator races - start at 0, automatic war, xenophobic races - start at 250, relations decay at 20 per year, xenophilic races - start at 50, relations decay at 10 per year
