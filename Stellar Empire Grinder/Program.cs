@@ -25,7 +25,7 @@ namespace Stellar_Empire_Grinder
             Console.WriteLine("With the discovery of the a new habitable world, the " + empireAdjective + " people enter a new era.");
             Console.WriteLine("This becomes known as \"Space Year One\" as humanity unites to colonize the stars.");
 
-            Empire player1 = new Empire(empireName, empireAdjective, 10, 1, 1, 1, 10, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0);
+            PlayEmpire player1 = new PlayEmpire(empireName, empireAdjective, 10, 1, 1, 1, 10, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0);
 
             player1.DecileDistribution();
 
@@ -45,10 +45,14 @@ namespace Stellar_Empire_Grinder
 
 
 /* To Implement:
+ * Refactor Empire.cs into general empire elements, and player empire elements as PlayEmpire class, inheriting from Empire.
  General Welfare
     Rebellion - subtracts from fleet (percentage?)
  Piracy - subtracts from economy (percentage?) - int piracy - 
- // Random 1-4 for planet roll
+ // Random 1-4 (1-8?) for planet roll
+    - 2 Habitable Planets
+    - 5 Empty Space
+    - 1 Enemy Empire  
  ScientificOutputBonus for each category
  Re-check help descriptions
  How do planets affect economic growth? Increase cost of development by devBucket, increase returns by planetMultiplier? - should scale at greater than 1:1
